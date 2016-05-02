@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PhilipCastiglione/memespo_fe/issues"
   },
-  "homepage": "https://github.com/PhilipCastiglione/memespo_fe#readme"
+  "homepage": "https://github.com/PhilipCastiglione/memespo_fe#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
