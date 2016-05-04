@@ -5,8 +5,10 @@ export default class Meme extends Component {
   render() {
     return (
       <article>
-        <img src='http://placecage.com/c/200/200' />
-        <Votes />
+        <img src={this.props.url} />
+        <Votes 
+          upvotes={this.props.upvotes}
+          downvotes={this.props.downvotes} />
       </article>
     );
   }

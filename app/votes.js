@@ -4,10 +4,8 @@ export default class Votes extends Component {
   render() {
     return (
       <ul>
-        <li>Upvotes</li>
-        <li>10</li>
-        <li>Downvotes</li>
-        <li>5</li>
+        <li>It&apos;s good {this.props.upvotes}</li>
+        <li>It&apos;s bad {this.props.downvotes}</li>
       </ul>
     );
   }
