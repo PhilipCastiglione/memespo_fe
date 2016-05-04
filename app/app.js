@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import Meme from './meme';
 
 export default class App extends Component {
   render() {
     return (
-      <h1>Hello, world.</h1>
+      <div>
+        <h1>Memespo</h1>
+        <Meme />
+        <Meme />
+        <Meme />
+      </div>
     );
   }
 }
