@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default class Votes extends React.Component {
-  render() {
+const Votes = (props) => {
     return (
       <ul>
-        <li onClick={this.props.incrementUpvotes}>It&apos;s good {this.props.upvotes}</li>
-        <li onClick={this.props.incrementDownvotes}>It&apos;s bad {this.props.downvotes}</li>
+        <li onClick={props.incrementUpvotes}>It&apos;s good {props.upvotes}</li>
+        <li onClick={props.incrementDownvotes}>It&apos;s bad {props.downvotes}</li>
       </ul>
     );
-  }
 }
+
+export default Votes;
